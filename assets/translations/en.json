@@ -1,0 +1,26 @@
+{
+  "app_name": "Hosta Provider",
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close"
+  },
+  "theme": {
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "choose": "Choose a language",
+    "selected": "Language selected"
+  },
+  "registration": "Registration",
+  "registration_screen": "Registration Screen",
+  "coming_soon": "Coming Soon"
+}

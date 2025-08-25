@@ -1,0 +1,100 @@
+name: hosta_provider
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.0.10
+  geolocator: ^14.0.2
+  cupertino_icons: ^1.0.8
+  logger: ^2.6.1
+  shared_preferences: ^2.5.3
+  permission_handler: ^12.0.1
+  provider: ^6.1.5
+  http: ^1.4.0
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  table_calendar: ^3.0.9
+  intl: ^0.20.2
+  get_it: ^7.6.7
+  dio: ^5.4.1
+  fl_chart: ^0.69.0
+  url_launcher: ^6.2.2
+  webview_flutter: ^4.7.0
+  
+  # Localization
+  easy_localization: ^3.0.5
+  
+  # UI Components
+  flutter_screenutil: ^5.9.0
+  
+  # Utils
+  internet_connection_checker: ^1.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/translations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: Mirza
+      fonts:
+        - asset: assets/fonts/Mirza-Regular.ttf
+        - asset: assets/fonts/Mirza-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Mirza-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Mirza-Bold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#61A3FE"                     
+  color_dark: "#000000"               
+  image: assets/images/logo.png       
+  image_dark: assets/images/dark-logo.png 
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+
+  android_12:
+    color: "#61A3FE"
+    color_dark: "#000000"
+    image: assets/images/logo.png
+    image_dark: assets/images/dark-logo.png
+    icon_background_color: "#61A3FE"
+    icon_background_color_dark: "#000000"

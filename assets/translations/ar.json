@@ -1,0 +1,26 @@
+{
+  "app_name": "هوستا للمزودين",
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق"
+  },
+  "theme": {
+    "system": "النظام",
+    "light": "فاتح",
+    "dark": "داكن"
+  },
+  "language": {
+    "choose": "اختر لغة",
+    "selected": "تم اختيار اللغة"
+  },
+  "registration": "التسجيل",
+  "registration_screen": "شاشة التسجيل",
+  "coming_soon": "قريباً"
+}
